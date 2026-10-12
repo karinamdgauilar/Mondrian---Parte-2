@@ -5,11 +5,11 @@ function setup() {
 function draw() {
   background(242, 240, 233);
 
-  // Mapeia a posiÃ§Ã£o do rato para distorcer a composiÃ§Ã£o em tempo real
+ 
   let mDistX = map(mouseX, 0, width, -70, 70);
   let mDistY = map(mouseY, 0, height, -70, 70);
 
-  // Se o rato estiver fora do canvas, a pintura fica estÃ¡vel
+  
   if (mouseX < 0 || mouseX > width || mouseY < 0 || mouseY > height) {
     mDistX = 0;
     mDistY = 0;
