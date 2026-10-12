@@ -1,4 +1,5 @@
 # Mondrian - Parte 2
 
 Como elemento desestabilizador escolhi uma deformação em tempo real que afeta as coordenadas da grelha central e dos blocos de cor sempre que o utilizador move o cursor *(mouseX e  mouseY)*. As linhas e os retângulos esticam-se e dobram-se de forma elástica em resposta direta à interação humana.
+
 A obra de Mondrian é um símbolo máximo do rigor, da ordem matemática e da rigidez geométrica. A introdução desta "distorção interativa" cria uma tensão provocadora e irónica, o espectador deixa de ser passivo e passa a ser um agente ativo que distorce a toda a geometria da obra. 
