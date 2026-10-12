@@ -23,29 +23,28 @@ function draw() {
   let yMid = height * 0.64 + mDistX * 0.6;
   let yBottom = height * 0.95;
 
-  // 1. BLOCOS DE COR (Cores originais mantidas e distorcidas pelo movimento)
+  
   noStroke();
 
-  // Vermelho
+ 
   fill(225, 38, 18);
   rect(0, 0, xMain, yTop);
 
-  // Amarelo
+  
   fill(245, 208, 32);
   rect(0, yMid, xYellow, height - yMid);
 
-  // Azul
   fill(26, 35, 126);
   rect(xMain, yMid, xBlueRight - xMain, yBottom - yMid);
 
-  // PainÃ©is Brancos / Cremes originais
+ 
   fill(244, 243, 238); rect(xMain, 0, width - xMain, yTop);
   fill(238, 237, 232); rect(0, yTop, xMain, yMid - yTop);
   fill(240, 235, 235); rect(xMain, yTop, width - xMain, yMid - yTop);
   fill(235, 234, 230); rect(xYellow, yMid, xMain - xYellow, height - yMid);
   fill(239, 238, 234); rect(xBlueRight, yMid, width - xBlueRight, height - yMid);
 
-  // 2. LINHAS PRETAS (Esticam e dobram-se com o cursor)
+ 
   stroke(15, 15, 15);
   strokeCap(SQUARE);
 
